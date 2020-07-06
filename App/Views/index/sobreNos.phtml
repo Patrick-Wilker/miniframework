@@ -1,0 +1,13 @@
+<h1 style="text-align: center">Sobre Nós</h1>
+<br>
+
+
+
+<?php foreach ($this->view->dados as $indice => $info) { ?>
+
+	<h1><?php echo $info['titulo']; ?></h1>
+	<br>
+	<p><?php echo $info['descricao']; ?></p>
+	<hr>
+
+<?php } ?>
